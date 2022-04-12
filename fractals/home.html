@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Line Intersections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #000000;">
+    <div id="range-container">
+        <input type="range" min=1 max=1000>
+        <p id="range-iteration-value"></p>
+        <input id="range-angle" type="range" min=-360 max=360>
+        <p id="range-angle-value">Starting Angle: 0</p>
+        <input id="range-fractal-angle" type="range" min=-360 max=360>
+        <p id="range-fractal-angle-value">Fractal Angle: 0</p>
+        <input id="range-offset-angle" type="range" min=1 max=100>
+        <p id="range-offset-value">Offset Value: 0</p>
+    </div>
+    <div id="canvas-container">
+        <canvas id="canvas" style="background-color: white">
+    </div>
+    <script src="functions.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
